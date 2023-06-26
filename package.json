@@ -1,0 +1,15 @@
+{
+  "name": "elearning-java",
+  "version": "1.0.0",
+  "description": "E-learning project by bicte",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
