@@ -561,7 +561,7 @@ html {
   gap: 2rem;
 }
 .topic-navigation {
-  box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 6px 1px #333;
   width: max-content;
   padding: 1rem 2rem;
   height: 100vh;
@@ -572,10 +572,10 @@ html {
 }
 
 .topic-navigation ul li a {
-  color: blue;
+  color: #06bbcc;
 }
 .topic-content {
-  border: 2px solid black;
+  box-shadow: 0 0 5px #333 inset;
   width: 100%;
   padding: 2rem;
   margin: 0 auto;
