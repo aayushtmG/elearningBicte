@@ -36,6 +36,18 @@ let QACollection = [
       answers: ["JVM", "JRE", "JDK", "JDB"],
       correct: 3,
     },
+    {
+      question:
+        "What is the return type of the hash Code () method in the Object class?",
+      answers: ["Object", "Int", "Long", "Void"],
+      correct: 1,
+    },
+    {
+      question:
+        "Which method of the Class.class is used to determine the name of a class represented by the class object as a String?",
+      answers: ["getName()", "toString()", "intern()", "getClass()"],
+      correct: 0,
+    },
   ],
   [
     {
@@ -47,6 +59,81 @@ let QACollection = [
         "Conditional Statements",
       ],
       correct: 3,
+    },
+    {
+      question:
+        "In which process, a local variable has the same name as one of the instance variables?",
+      answers: [
+        "Abstraction",
+        "Multi-Threading",
+        "Serialization",
+        "Variable Shadowing",
+      ],
+      correct: 3,
+    },
+    {
+      question:
+        "Which keyword is used for accessing the features of a package?",
+      answers: ["Import", "Extends", "Export", "Package"],
+      correct: 0,
+    },
+    {
+      question: "How many threads can be executed at a time?",
+      answers: [
+        "Only main (main() method) thread",
+        "Two threads",
+        "Multiple threads",
+        "Only one thread",
+      ],
+      correct: 2,
+    },
+    {
+      question: "In java, jar stands for_____.",
+      answers: [
+        "Java Application Resource",
+        "Java Application Runner",
+        "Java Archive Runner",
+        "None of the above",
+      ],
+      correct: 3,
+    },
+  ],
+  [
+    {
+      question: " Which of the following is a reserved keyword in Java?",
+      answers: ["system", "main", "object", "strict"],
+      correct: 3,
+    },
+    {
+      question:
+        "Which of the following modifiers can be used for a variable so that it can be accessed by any thread or a part of a program?",
+      answers: ["volatile", "default", "transient", "global"],
+      correct: 0,
+    },
+    {
+      question: "Which is not a feature of OOP in general definitions?",
+      answers: [
+        "Efficient Code",
+        "Code Reusability",
+        "Modularity",
+        "Duplicate/Rdundant Data",
+      ],
+      correct: 3,
+    },
+    {
+      question: "Which feature of OOP indicates code reusability?",
+      answers: ["Abstraction", "Polymorphism", "Encapsulation", "Inheritance"],
+      correct: 3,
+    },
+    {
+      question: "Why Java is Partially OOP language?",
+      answers: [
+        "It allows code to be written outside classes",
+        "It supports usual declaration of primitive data types",
+        "It does not support pointers",
+        "It doesn’t support all types of inheritance",
+      ],
+      correct: 1,
     },
   ],
 ]
